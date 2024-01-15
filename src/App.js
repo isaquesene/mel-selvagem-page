@@ -17,18 +17,24 @@ import Footer from './components/Footer';
 
 const App = () => {
   // aos initialization
+  Aos.init({
+    duration: 2500,
+    delay: 400,
+  })
+
+
   return (
     <div className='max-w-[1440px] mx-auto bg-page overflow-hidden relative'>
       <Header />
       <Banner />
       <About />
       <Workouts />
-      <Pricing />
+      {/* <Pricing /> */}
       <Community />
       <Faq />
       <Join />
       <Footer />
-      {/* <div className='h-[4000px]'></div> */}
+      <div className='h-[4000px]'></div>
     </div>
   );
 };

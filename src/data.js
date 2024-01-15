@@ -1,16 +1,21 @@
 // images
-import Logo from '../src/assets/img/header/logo.svg';
-import ResistanceImg from '../src/assets/img/workouts/resistance.png';
-import BoxingImg from '../src/assets/img/workouts/boxing.png';
-import BodyPumpImg from '../src/assets/img/workouts/body-pump.png';
-import YogaImg from '../src/assets/img/workouts/yoga.png';
-import FullBodyImg from '../src/assets/img/workouts/full-body.png';
-import FitnessImg from '../src/assets/img/workouts/fitness.png';
-import BattleRopeImg from '../src/assets/img/workouts/battle-rope.png';
-import CommunityImg1 from '../src/assets/img/community/img1.png';
-import CommunityImg2 from '../src/assets/img/community/img2.png';
-import CommunityImg3 from '../src/assets/img/community/img3.png';
-import CommunityImg4 from '../src/assets/img/community/img4.png';
+//import Logo from '../src/assets/img/header/logo.svg';
+import Logo from '../src/assets/img/header/logoMel.png';
+import Manejo1 from '../src/assets/img/workouts/colheita.jpeg';
+import Resgate from '../src/assets/img/workouts/colheita2.jpeg';
+import Resgate2 from '../src/assets/img/workouts/resgate-2.jpeg';
+import Manejo2 from '../src/assets/img/workouts/manejo3.jpeg';
+import Manejo3 from '../src/assets/img/workouts/manejo4.jpeg';
+import Manejo4 from '../src/assets/img/workouts/manejo5.jpeg';
+import Manejo5 from '../src/assets/img/workouts/manejo6.jpeg';
+import Manejo6 from '../src/assets/img/workouts/manejo7.jpeg';
+import Manejo7 from '../src/assets/img/workouts/manejo8.jpeg';
+import Manejo8 from '../src/assets/img/workouts/frascos2.png';
+// images
+import CommunityImg1 from '../src/assets/img/community/receitas.jpg';
+import CommunityImg2 from '../src/assets/img/community/bolo-de-mel-com-frutas.jpg';
+import CommunityImg3 from '../src/assets/img/community/biscoitos_de_mel.jpg';
+import CommunityImg4 from '../src/assets/img/community/macamel.jpeg.jpg';
 import JoinImg from '../src/assets/img/join/woman.png';
 // icons
 import UsersIcn from '../src/assets/img/about/icons/users-icn.svg';
@@ -27,70 +32,82 @@ export const header = {
 
 export const nav = [
   { name: 'Home', href: '/' },
-  { name: 'About', href: '/' },
-  { name: 'Workouts', href: '/' },
-  { name: 'Pricing', href: '/' },
+  { name: 'Sobre nós', href: '/' },
+  { name: 'Nosso trabalho', href: '/' },
+  { name: 'Produto', href: '/' },
   { name: 'Community', href: '/' },
-  { name: 'FAQ', href: '/' },
+  { name: 'Perguntas', href: '/' },
 ];
 
 export const banner = {
-  titlePart1: 'Get the best part of your day',
-  titlePart2: '– you fit here.',
+  titlePart1: 'Do produtor do campo',
+  titlePart2: '– para sua mesa.',
   subtitle:
-    'We provide serious fitness but within a fun and friendly, safe space.',
-  textBtn: 'Join Now',
+    'Produto natural selvagem e natural direto do campo',
+  textBtn: 'Garanta seu aqui',
   img: '',
 };
 
 export const about = {
   icon: UsersIcn,
-  title: 'Our misson',
+  title: 'Nossa missão',
   subtitle1:
-    'We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff, and premier exercise equipment, which supports our members in meeting their individual fitness goals.',
+    'Produção de mel selvagem, cutivado direto das abelhas, para garantir isso levamos a qualidade do campo para sua mesa.',
   subtitle2:
     'The strength of our heart-felt identity is utilized to inspire every person that steps foot into our gyms to better themselves.',
-  link: 'Join Now',
+  link: 'Garante seu aqui',
 };
 
 export const workouts = {
   icon: CalendarIcn,
-  title: 'Training programs',
+  title: 'Manejos no Apiário',
   programs: [
     {
-      image: ResistanceImg,
-      name: 'Resistance',
+      image: Manejo1,
+      name: 'Manejo',
     },
     {
-      image: BoxingImg,
-      name: 'Boxing',
+      image: Resgate,
+      name: 'Resgate',
     },
     {
-      image: BodyPumpImg,
-      name: 'Body Pump',
+      image: Resgate2,
+      name: 'Resgate',
     },
     {
-      image: YogaImg,
-      name: 'Yoga',
+      image: Manejo2,
+      name: 'Manejo',
     },
     {
-      image: FullBodyImg,
-      name: 'Full Body',
+      image: Manejo3,
+      name: 'Manejo',
     },
     {
-      image: FitnessImg,
-      name: 'Fitness',
+      image: Manejo4,
+      name: 'Manejo',
     },
     {
-      image: BattleRopeImg,
-      name: 'Battle Rope',
+      image: Manejo5,
+      name: 'Manejo',
+    },
+    {
+      image: Manejo6,
+      name: 'Manejo',
+    },
+    {
+      image: Manejo7,
+      name: 'Manejo',
+    },
+    {
+      image: Manejo8,
+      name: 'Frascos',
     },
   ],
 };
 
 export const pricing = {
   icon: PriceIcn,
-  title: 'Pricing plan',
+  title: 'Nosso produto',
   plans: [
     {
       name: 'Basic',
@@ -130,29 +147,29 @@ export const pricing = {
 
 export const community = {
   icon: CommunityIcn,
-  title: 'Community',
+  title: 'Receitas',
   testimonials: [
     {
       image: CommunityImg1,
-      name: 'Mark A.',
+      name: 'Bolo integral de Mel.',
       message:
         '“Great location, great price and great, helpful people. What to want more?”',
     },
     {
       image: CommunityImg2,
-      name: 'Lauren K.',
+      name: 'Pão caseiro de Mel.',
       message:
         '“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”',
     },
     {
       image: CommunityImg3,
-      name: 'Jhon D.',
+      name: 'Biscoitos de Mel.',
       message:
         '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
     },
     {
       image: CommunityImg4,
-      name: 'Anne R.',
+      name: 'Maça assada com Mel.',
       message:
         '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
     },
